@@ -24,6 +24,8 @@ alert ("Passagem comprada com sucesso")
   <p> Los Angeles - R$ 1200 <button onClick= {()=>compraPassagem(1200)}> Comprar </button></p>
   <p> Londres - R$ 1550 <button onClick= {()=>compraPassagem(1550)}> Comprar </button></p>
   <p> França - R$ 1700 <button onClick= {()=>compraPassagem(1700)}> Comprar </button></p>
+  <p> Moscou - R$ 1100 <button onClick= {()=>compraPassagem(1100)}> Comprar </button></p>
+
     </div>
   );
 }
