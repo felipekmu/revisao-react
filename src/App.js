@@ -18,10 +18,9 @@ alert ("Passagem comprada com sucesso")
     <div>
   <h1> Felipe Passagens </h1>
   <p> Conheço os mundos pelo menor preço! </p>
-  <button> Contato </button>
   <button onClick={ ()=>adicionarCrédito() } > Meus Crédito</button>
   <p> Seu Crédito é de <strong> R$ {credito} </strong></p>
-<h2> Viagens </h2>
+  <h2> Viagens </h2>
   <p> Los Angeles - R$ 1200 <button onClick= {()=>compraPassagem(1200)}> Comprar </button></p>
   <p> Londres - R$ 1420 <button onClick= {()=>compraPassagem(1420)}> Comprar </button></p>
     </div>
